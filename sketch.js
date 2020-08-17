@@ -106,7 +106,7 @@ function draw() {
        }
 
        if(particles[j].body.position.x>320 && particles[j].body.position.x<400 || particles[j].body.position.x>400 && particles[j].body.position.x<480) {
-        score = score+400;
+        score = score+500;
        }
 
        particles[j] = null;
